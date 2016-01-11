@@ -1,0 +1,55 @@
+.page-header {
+  text-align: center;
+  padding-bottom: 0;
+}
+
+.jumbotron {
+  padding: 0;
+  background-color: #306bac;
+  color: white;
+}
+.navbar-default {
+  background-color: #306bac;
+  border-color: #306bac;
+}
+@media (min-width: 768px){
+  .navbar-default .navbar-nav {
+    margin: 0 auto;
+    display: table;
+    table-layout: auto;
+    float: none;
+    width: 100%;
+    color: white;
+  }
+  .navbar-default .navbar-nav>li {
+    display: table-cell;
+    float: none;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .navbar-default .navbar-nav>li >a {
+    color: white;
+  }
+}
+
+.alignleft {
+  float:left;
+}
+
+.alignright {
+  float:right;
+}
+
+.not-active {
+  pointer-events: none;
+  cursor: default;
+  color: #264980 !important;
+}
+
+.adjusting {
+  max-width:100%;
+  max-height:100%;
+  margin:auto;
+  display:block;
+}
